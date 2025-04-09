@@ -128,9 +128,9 @@
         <nav class="header-fullpage navbar navbar-expand-lg nav-light">
             <div class="container text-nowrap bdr-nav">
                 <div class="d-flex me-auto" style="margin: 0 auto;">
-                    <a class="navbar-brand rounded-bottom light-bg" href="#">
+                    {{-- <a class="navbar-brand rounded-bottom light-bg" href="#">
                         <img src="{{asset('theme/assets/images/logo_white.svg')}}" alt="">
-                    </a>
+                    </a> --}}
                 </div>
 
 
