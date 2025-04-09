@@ -89,7 +89,8 @@
                     <div class="col d-flex">
                         <div class="top-text">
                             <small class="txt-black">Address</small>
-                            3601 North 110 Service Road West, Kansas City
+                            3601 North 110 Service Road West, <br>
+                            Kansas City, MO 64116
                         </div>
                         <div class="top-text">
                             <small class="txt-black">Emaii Us</small>
