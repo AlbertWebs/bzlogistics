@@ -103,10 +103,23 @@
                         <ul class="list-unstyled">
                             <li><a href="#"><i class="icofont-simple-right"></i> <span>Home</span></a></li>
                             <li><a href="#"><i class="icofont-simple-right"></i> <span>About us</span></a></li>
-                            <li><a href="#"><i class="icofont-simple-right"></i> <span>News</span></a></li>
                             <li><a href="#"><i class="icofont-simple-right"></i> <span>Services</span></a></li>
-                            <li><a href="#"><i class="icofont-simple-right"></i> <span>Contacts</span></a></li>
                             <li><a href="#"><i class="icofont-simple-right"></i> <span>Support</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Column Second -->
+
+                 <!-- Column Second -->
+                 <div class="col-lg-3 col-md-6">
+                    <h3 class="footer-heading">Legal Links</h3>
+                    <div class="footer-widget-menu">
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="icofont-simple-right"></i> <span>Terms and Conditions</span></a></li>
+                            <li><a href="#"><i class="icofont-simple-right"></i> <span>Privacy Policy</span></a></li>
+                            <li><a href="#"><i class="icofont-simple-right"></i> <span>Cookies</span></a></li>
+                            <li><a href="#"><i class="icofont-simple-right"></i> <span>Copyright</span></a></li>
+
                         </ul>
                     </div>
                 </div>
@@ -127,7 +140,7 @@
                             <i class="icofont-smart-phone me-3"></i>
                             <div class="media-body">
                                 <div>+1 (816) 219-1494 </div>
-                                <div>+1 (816) 219-1494 </div>
+
                             </div>
                         </div>
                         <div class="media mb-3">
@@ -148,21 +161,7 @@
                 </div>
                 <!-- Column Third -->
 
-                <!-- Column Fourth -->
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="footer-heading">Recent Tweets</h3>
-                    <div class="footer-widget-tweet">
-                        <div class="d-flex align-items-start">
-                            <i class="icofont-twitter txt-ligt-gray icofont-2x"></i>
-                            <div class="tweet-stream"></div>
-                        </div>
 
-                        <div>
-                            <a href="#" class="btn-theme icon-left"><i class="icofont-twitter"></i> Follow @twitter</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Column Fourth -->
 
 
 

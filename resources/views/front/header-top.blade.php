@@ -81,6 +81,19 @@
                     <div class="offcanvas-body w-100" data-lenis-prevent="">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">
+                                <a class="nav-link" href="{{url('/')}}" >Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" data-bs-toggle="dropdown" aria-expanded="false">Services <i class="icofont-rounded-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Drayage & Intermodal</a></li>
+                                    <li><a class="dropdown-item" href="#">Over the Road</a></li>
+                                    <li><a class="dropdown-item" href="#">Transload & Warehousing</a></li>
+                                    <li><a class="dropdown-item" href="#">Specialized </a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
                                 <a class="nav-link" href="#" data-bs-toggle="dropdown" aria-expanded="false">Shipper <i class="icofont-rounded-down"></i></a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Full Truckload</a></li>
