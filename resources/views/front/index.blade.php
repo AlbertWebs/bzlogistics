@@ -15,7 +15,7 @@
                                 Streamline your entire shipping process from any port to your porch with BZ Logistics' dedicated experts and innovative, cutting-edge industry technology solutions
                             </p>
                             <div class="clearfix"></div>
-                            <a href="#" class="btn-theme bg-orange" data-swiper-parallax="200">Learn More</a>
+                            <a href="#" class="btn-theme bg-orange blue-outline" data-swiper-parallax="200">Learn More</a>
                         </div>
                         <!-- end container -->
                     </div>
@@ -31,7 +31,7 @@
                                 Streamline your entire shipping process from any port to your porch with BZ Logistics' dedicated experts and innovative, cutting-edge industry technology solutions
                             </p>
                             <div class="clearfix"></div>
-                            <a href="#" class="btn-theme bg-orange" data-swiper-parallax="200">Learn More</a>
+                            <a href="#" class="btn-theme bg-orange blue-outline" data-swiper-parallax="200">Learn More</a>
                         </div>
                         <!-- end container -->
                     </div>
@@ -42,12 +42,12 @@
                     <div class="slide-inner bg-image" data-background="{{asset('theme/assets/images/banner_slider_2.jpg')}}" data-text="Always On<span>Time Delivery</span>">
                         <div class="container">
                             <h6 data-swiper-parallax="100">From Pickup to Destination</h6>
-                            <h2 data-swiper-parallax="200" class="hero-h1">We Are BzLogistics</h2>
+                            <h2 data-swiper-parallax="200" class="hero-h1">Deliver with assurance.</h2>
                             <p data-swiper-parallax="300" class="hero-paragraph">
                                 Optimize your full shipping experience from any port to your porch with BZ Logistics' skilled professionals and groundbreaking, high-tech industry technology solutions.
                             </p>
                             <div class="clearfix"></div>
-                            <a href="#" class="btn-theme bg-orange" data-swiper-parallax="200">Learn More</a>
+                            <a href="#" class="btn-theme bg-orange blue-outline" data-swiper-parallax="200">Learn More</a>
                         </div>
                         <!-- end container -->
                     </div>
@@ -75,7 +75,7 @@
 
                 <div class="col-md-6 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0s">
                     <h2 class="mb-4 fw-7 txt-blue">
-                        About <span class="fw-6 txt-orange">BzLogistics</span>
+                        About <span class="fw-6 txt-orange ">BzLogistics</span>
                     </h2>
 
                     <p class="wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.2s">
@@ -105,7 +105,7 @@
             <div class="row">
                 <!-- Heading Main -->
                 <div class="col-sm-12 wow fadeInDown" data-wow-duration="0" data-wow-delay="0s">
-                    <h1 class="heading-main">
+                    <h1 class="heading-main ">
                         <span>Our Core Values</span>
                         Why Choose Us
                     </h1>

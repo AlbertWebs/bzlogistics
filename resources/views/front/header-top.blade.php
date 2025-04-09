@@ -57,7 +57,7 @@
 
 
                 <div class="d-inline-flex request-btn order-lg-last">
-                    <a class="btn-theme icon-left bg-orange no-shadow d-none d-lg-inline-block align-self-center" href="#" role="button" data-bs-toggle="modal" data-bs-target="#request_popup"><i class="icofont-page"></i> Request Quote</a>
+                    <a class="btn-theme icon-left bg-orange no-shadow d-none d-lg-inline-block align-self-center blue-outline" href="#" role="button" data-bs-toggle="modal" data-bs-target="#request_popup"><i class="icofont-page"></i>Get a Freight Quote</a>
                 </div>
                 <!-- Topbar Request Quote Start -->
 

@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- xxx Favicon xxx -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('theme/assets/images/favicon.ico')}}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('uploads/favicon.png')}}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <title>BZ LOGISTICS LLC - Logistics & Supply Chain Solutions</title>
 
@@ -38,7 +38,7 @@
     <meta name="contact:phone" content="+1 (816) 219-1494">
 
     <!-- xxx Favicon xxx -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('theme/assets/images/favicon.ico')}}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('uploads/favicon.png')}}">
 
     <!-- Main Style CSSS -->
     <link href="{{asset('theme/assets/css/theme-plugins.min.css')}}" rel="stylesheet">

@@ -3828,7 +3828,7 @@ footer .social-icons {
 }
 
 footer .social-icons a {
-    color: var(--bg-white);
+    color: #2E3092;
     display: inline-flex;
     background-color: var(--primary-color);
     align-items: center;
@@ -3843,6 +3843,7 @@ footer .social-icons a:not(:last-child) {
 
 footer .social-icons a:hover {
     background-color: var(--secondary-color);
+    color:var(--bg-white);
 }
 
 .copyright-wrap {
@@ -5108,4 +5109,14 @@ html.lenis body {
     font-size: 3.5rem;
     font-weight: 900;
     line-height: 4rem;
+}
+.blue-outline{
+    /* text-shadow:1px 0px #2E3092; */
+    /* -webkit-text-fill-color: yellow;
+    -webkit-text-stroke: 1px #2E3092; */
+    color:#2E3092 !important;
+}
+.blue-underline{
+    text-decoration: underline;
+    text-decoration-color:#2E3092;
 }
