@@ -1,9 +1,11 @@
 ﻿/* ==========================================================================
 Theme Name: Logzee
-Theme URI: http://mannatstudio.com
-Description:  Logzee - A Logistic Cargo HTML Template
+Theme Purpose: Bz Logistics
+Theme URI: http://bzlogistics.us
+Description:  BZ - A Logistic Cargo HTML Template
 Version: 1.0
 Author: Mannat Studio
+Editor:Designekta Studios
 Tags:   business, cargo, chain supply, company, corporate, expedition, freight, logistics, packaging, services, shipping, transport, transportation, trucking, warehousing
 ========================================================================== */
 @import url('../../../../../css2');
@@ -2079,7 +2081,7 @@ h2.h2-xl {
 }
 
 /*------------------------------------------*/
-/*    Blockquotes Style 
+/*    Blockquotes Style
 /*------------------------------------------*/
 .style-one {
     font-size: 1.25rem;
