@@ -17,13 +17,19 @@ html {
 
 body {
     font-family: var(--font-body);
-    font-size: 1rem;
+    font-size: 1.125rem;
     font-weight: 400;
     color: #999;
     line-height: 1.6;
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+}
+p{
+    color: #000000;
+    font-size: 1.125rem !important;
+    font-weight: 400;
+    line-height: 1.625rem;
 }
 
 img {
@@ -58,11 +64,11 @@ p:last-child {
     padding-right: 15px;
     padding-left: 15px;
 }
-
+/* font-family: "Roboto", sans-serif; */
 :root {
     scroll-behavior: inherit;
-    --font-body: "Outfit", sans-serif;
-    --primary-color: #fe8704;
+    --font-body: "Roboto", sans-serif;
+    --primary-color: #ffdd17; /* #c2aa1c */
     --secondary-color: #232135;
     --main-dark-color: #666;
     --bg-light-theme: #fef9f5;
@@ -115,7 +121,7 @@ a:focus {
 /*    Main Navigatio Style
 /*------------------------------------------*/
 .navbar-brand {
-    width: 140px;
+    width: 220px;
     padding: .9rem;
 }
 
@@ -140,7 +146,7 @@ a:focus {
 
 .navbar-nav .nav-link {
     color: #fff;
-    font-size: 0.875rem;
+    font-size: 1rem;
     text-transform: uppercase;
     padding: 16px 15px;
     font-weight: 600;
@@ -4091,7 +4097,7 @@ footer .social-icons a:hover {
 
 .header-sixth .navbar.fixed {
     box-shadow: none;
-    background-color: rgba(var(--secondary-rgb), 0.75);
+    background-color: rgba(var(--secondary-rgb), 0.9);
 }
 
 .header-fullpage.fixed.navbar-expand-md .navbar-nav .nav-item,
@@ -4278,7 +4284,7 @@ footer .social-icons a:hover {
 
 .navbar-brand {
     padding: 0;
-    width: 130px;
+    /* width: 130px; */
     margin: 0;
 }
 
@@ -4834,7 +4840,7 @@ label.error {
 }
 
 .home.slider .swiper-slide p {
-    max-width: 600px;
+    max-width: 900px;
     display: inline-block;
     margin-bottom: 40px;
 }
@@ -5089,4 +5095,17 @@ html.lenis body {
 
 .lenis.lenis-smooth iframe {
     pointer-events: none;
+}
+.hero-paragraph{
+    color: #c6c6c6 !important;
+    font-size: 1.6rem !important;
+    margin-top: 0.75rem !important;
+    line-height: 2.125rem;
+    font-weight: 600;
+}
+.hero-h1 {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 4rem;
 }
