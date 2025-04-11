@@ -75,7 +75,7 @@
 
                 <div class="col-md-6 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0s">
                     <h2 class="mb-4 fw-7 txt-blue">
-                        About <span class="fw-6 txt-orange ">BzLogistics</span>
+                        About <span class="fw-6 txt-orange ">BZ Logistics</span>
                     </h2>
 
                     <p class="wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.2s">
