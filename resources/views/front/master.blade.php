@@ -132,7 +132,8 @@
                         <div class="media mb-3">
                             <i class="icofont-google-map me-3"></i>
                             <div class="media-body">
-                                3601 North 110 Service Road West, <br>Kansas City, MO 64116
+                                {{-- 3601 North 110 Service Road West, <br>Kansas City, MO 64116 --}}
+                                3810 North Cherry Street <br>Kansas City, MO 64116
 
                             </div>
                         </div>

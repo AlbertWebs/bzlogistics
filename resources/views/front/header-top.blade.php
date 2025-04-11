@@ -13,8 +13,9 @@
                             <div class="top-text">
                                 <small class="txt-ligt-gray">Address</small>
                                 <span class="fw-7 txt-blue">
-                                    3601 North 110 Service Road West, <br>
-                            Kansas City, MO 64116
+                                    {{-- 3601 North 110 Service Road West, <br>
+                            Kansas City, MO 64116 --}}
+                            3810 North Cherry Street <br>Kansas City, MO 64116
                                 </span>
                             </div>
                             <div class="top-text">
