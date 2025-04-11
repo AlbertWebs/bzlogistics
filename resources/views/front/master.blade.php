@@ -10,26 +10,26 @@
     <!-- xxx Favicon xxx -->
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('uploads/favicon.png')}}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
-    <title>BZ LOGISTICS LLC - Logistics & Supply Chain Solutions</title>
+    <title>BZ Logistics LLC - Logistics & Supply Chain Solutions</title>
 
     <!-- Meta Tags for SEO -->
-    <meta name="author" content="BZ LOGISTICS LLC">
-    <meta name="description" content="BZ LOGISTICS LLC provides top-notch logistics, supply chain management, and transportation services for businesses. Get reliable and efficient shipping and logistics solutions.">
+    <meta name="author" content="BZ Logistics LLC">
+    <meta name="description" content="BZ Logistics LLC provides top-notch logistics, supply chain management, and transportation services for businesses. Get reliable and efficient shipping and logistics solutions.">
     <meta name="keywords" content="BZ LOGISTICS, logistics, supply chain, transportation, shipping, freight, warehousing, trucking, cargo, logistics solutions, corporate services, expedition, freight services, transport, packaging, warehousing solutions">
 
     <!-- Open Graph (OG) Meta Tags -->
-    <meta property="og:title" content="BZ LOGISTICS LLC - Logistics & Supply Chain Solutions">
-    <meta property="og:description" content="BZ LOGISTICS LLC offers reliable logistics and supply chain management services tailored to your business needs. Contact us for efficient freight and transportation solutions.">
+    <meta property="og:title" content="BZ Logistics LLC - Logistics & Supply Chain Solutions">
+    <meta property="og:description" content="BZ Logistics LLC offers reliable logistics and supply chain management services tailored to your business needs. Contact us for efficient freight and transportation solutions.">
     <meta property="og:url" content="https://www.bzlogistics.us">
     <meta property="og:image" content="https://www.bzlogistics.us/path/to/your/logo-or-image.jpg')}}"> <!-- Replace with your image URL -->
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="BZ LOGISTICS LLC">
+    <meta property="og:site_name" content="BZ Logistics LLC">
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@bzlogistics">
-    <meta name="twitter:title" content="BZ LOGISTICS LLC - Logistics & Supply Chain Solutions">
-    <meta name="twitter:description" content="BZ LOGISTICS LLC specializes in logistics, freight, transportation, and supply chain management. Efficient, reliable, and cost-effective services tailored for your business needs.">
+    <meta name="twitter:title" content="BZ Logistics LLC - Logistics & Supply Chain Solutions">
+    <meta name="twitter:description" content="BZ Logistics LLC specializes in logistics, freight, transportation, and supply chain management. Efficient, reliable, and cost-effective services tailored for your business needs.">
     <meta name="twitter:image" content="https://www.bzlogistics.us/path/to/your/logo-or-image.jpg')}}"> <!-- Replace with your image URL -->
     <meta name="twitter:creator" content="@bzlogistics">
 

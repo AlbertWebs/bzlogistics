@@ -10,7 +10,7 @@
                     <div class="slide-inner bg-image" data-background="{{asset('theme/assets/images/banner_slider_4.jpg')}}" data-text="How We Work<span>For Your Pickup</span>">
                         <div class="container">
                             <h6 data-swiper-parallax="100">From Pickup to Destination</h6>
-                            <h2 data-swiper-parallax="200" class="hero-h1">We Are BzLogistics</h2>
+                            <h2 data-swiper-parallax="200" class="hero-h1">We Are Bz Logistics</h2>
                             <p data-swiper-parallax="300" class="hero-paragraph">
                                 Streamline your entire shipping process from any port to your porch with BZ Logistics' dedicated experts and innovative, cutting-edge industry technology solutions
                             </p>
