@@ -110,9 +110,9 @@
                                 <a class="nav-link" href="#" >Carriers</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" data-bs-toggle="dropdown" aria-expanded="false">About Us <i class="icofont-rounded-down"></i></a>
+                                <a class="nav-link" href="#" data-bs-toggle="dropdown" aria-expanded="false">The Company <i class="icofont-rounded-down"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">About Us</a></li>
+                                    <li><a class="dropdown-item" href="{{url('/')}}/about-us">About Us</a></li>
                                     <li><a class="dropdown-item" href="#">Careers</a></li>
                                     <li><a class="dropdown-item" href="#">Resources</a></li>
                                 </ul>
@@ -120,7 +120,7 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link" href="#" data-bs-toggle="dropdown" aria-expanded="false">Contact Us <i class="icofont-rounded-down"></i></a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                                    <li><a class="dropdown-item" href="{{url('/')}}/contact-us">Contact Us</a></li>
                                     <li><a class="dropdown-item" href="#">Locations</a></li>
                                     <li><a class="dropdown-item" href="#">Global Networks</a></li>
                                 </ul>

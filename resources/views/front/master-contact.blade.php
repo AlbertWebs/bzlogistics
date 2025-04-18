@@ -10,7 +10,7 @@
     <!-- xxx Favicon xxx -->
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('uploads/favicon.png')}}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
-    <title>BZ Logistics LLC - Logistics & Supply Chain Solutions</title>
+    <title>Contact Us - BZ Logistics LLC </title>
 
     <!-- Meta Tags for SEO -->
     <meta name="author" content="BZ Logistics LLC">
@@ -18,9 +18,9 @@
     <meta name="keywords" content="BZ LOGISTICS, logistics, supply chain, transportation, shipping, freight, warehousing, trucking, cargo, logistics solutions, corporate services, expedition, freight services, transport, packaging, warehousing solutions">
 
     <!-- Open Graph (OG) Meta Tags -->
-    <meta property="og:title" content="BZ Logistics LLC - Logistics & Supply Chain Solutions">
+    <meta property="og:title" content="Contact Us - BZ Logistics LLC ">
     <meta property="og:description" content="BZ Logistics LLC offers reliable logistics and supply chain management services tailored to your business needs. Contact us for efficient freight and transportation solutions.">
-    <meta property="og:url" content="https://www.bzlogistics.us">
+    <meta property="og:url" content="https://www.bzlogistics.us/about-us">
     <meta property="og:image" content="https://www.bzlogistics.us/path/to/your/logo-or-image.jpg')}}"> <!-- Replace with your image URL -->
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="BZ Logistics LLC">
@@ -28,7 +28,7 @@
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@bzlogistics">
-    <meta name="twitter:title" content="BZ Logistics LLC - Logistics & Supply Chain Solutions">
+    <meta name="twitter:title" content="Contact Us - BZ Logistics LLC ">
     <meta name="twitter:description" content="BZ Logistics LLC specializes in logistics, freight, transportation, and supply chain management. Efficient, reliable, and cost-effective services tailored for your business needs.">
     <meta name="twitter:image" content="https://www.bzlogistics.us/path/to/your/logo-or-image.jpg')}}"> <!-- Replace with your image URL -->
     <meta name="twitter:creator" content="@bzlogistics">
@@ -67,15 +67,32 @@
     </div>
     <!-- Page loader End -->
 
-  @include('front.header-top')
+   @include ('front.header-top')
+
+    <!-- Page Breadcrumbs Start -->
+    <div class="slider bg-navy-blue bg-fixed pos-rel breadcrumbs-page">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#"><i class="icofont-home"></i></a></li>
+                    <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                </ol>
+            </nav>
+
+            <h1>Contact Us</h1>
+            <div class="breadcrumbs-description">
+                Have questions or need a quote? We’re here to help! Reach out to the BZ Logistics team anytime—we’re ready to assist with your shipping needs and provide the support you deserve. Let’s get your freight moving!
+            </div>
+        </div>
+    </div>
+    <!-- Page Breadcrumbs End -->
 
 
     @yield('content')
 
-
-
-      <!-- Main Footer Start -->
-      <footer class="wide-tb-70 bg-light-theme pb-0">
+     <!-- Main Footer Start -->
+     <footer class="wide-tb-70 bg-light-theme pb-0">
         <div class="container">
             <div class="row">
 
@@ -102,7 +119,7 @@
                     <div class="footer-widget-menu">
                         <ul class="list-unstyled">
                             <li><a href="#"><i class="icofont-simple-right"></i> <span>Home</span></a></li>
-                            <li><a href="#"><i class="icofont-simple-right"></i> <span>About us</span></a></li>
+                            <li><a href="#"><i class="icofont-simple-right"></i> <span>Contact Us</span></a></li>
                             <li><a href="#"><i class="icofont-simple-right"></i> <span>Services</span></a></li>
                             <li><a href="#"><i class="icofont-simple-right"></i> <span>Support</span></a></li>
                         </ul>
@@ -183,7 +200,6 @@
         </div>
     </footer>
     <!-- Main Footer End -->
-
 
     <div class="video-box">
         <!-- close-video -->
@@ -312,80 +328,13 @@
 
 
 
+
     <!-- Jquery Library JS -->
     <script src="{{asset('theme/assets/js/jquery.min.js')}}"></script>
     <script src="{{asset('theme/assets/js/theme-plugins.min.js')}}"></script>
     <script src="{{asset('theme/assets/twitter/jquery.tweet.js')}}"></script>
 
     <script src="{{asset('theme/assets/js/site-custom.js')}}"></script>
-
-    <script type="text/javascript">
-        (function ($) {
-            $(document).ready(function () {
-                "use strict";
-
-                // DATA BACKGROUND IMAGE
-                var pageSection = $(".bg-image");
-                pageSection.each(function (indx) {
-                    if ($(this).attr("data-background")) {
-                        $(this).css("background-image", "url(" + $(this).data("background") + ")");
-                    }
-                });
-            });
-
-            // SLIDER
-            var menu = [];
-            jQuery('.swiper-slide').each(function (index) {
-                menu.push(jQuery(this).find('.slide-inner').attr("data-text"));
-            });
-            var interleaveOffset = 0.5;
-            var swiperOptions = {
-                loop: true,
-                speed: 1000,
-                parallax: true,
-                autoplay: {
-                    delay: 3500,
-                    disableOnInteraction: false,
-                },
-                grabCursor: true,
-                watchSlidesProgress: true,
-                pagination: {
-                    el: '.swiper-custom-pagination',
-                    clickable: true,
-                    renderBullet: function (index, className) {
-                        return '<span class="' + className + '">' + (menu[index]) + '</span>';
-                    },
-                },
-                on: {
-                    progress: function () {
-                        var swiper = this;
-                        for (var i = 0; i < swiper.slides.length; i++) {
-                            var slideProgress = swiper.slides[i].progress;
-                            var innerOffset = swiper.width * interleaveOffset;
-                            var innerTranslate = slideProgress * innerOffset;
-                            swiper.slides[i].querySelector(".slide-inner").style.transform =
-                                "translate3d(" + innerTranslate + "px, 0, 0)";
-                        }
-                    },
-                    touchStart: function () {
-                        var swiper = this;
-                        for (var i = 0; i < swiper.slides.length; i++) {
-                            swiper.slides[i].style.transition = "";
-                        }
-                    },
-                    setTransition: function (speed) {
-                        var swiper = this;
-                        for (var i = 0; i < swiper.slides.length; i++) {
-                            swiper.slides[i].style.transition = speed + "ms";
-                            swiper.slides[i].querySelector(".slide-inner").style.transition =
-                                speed + "ms";
-                        }
-                    }
-                }
-            };
-            var swiper = new Swiper(".swiper-container", swiperOptions);
-        })(jQuery);
-    </script>
 </body>
 
 </html>
